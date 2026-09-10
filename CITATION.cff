@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: "SCAL-Net: simulation results for a scalable, adaptive AUV-swarm network"
+message: "If you use this data or code, please cite the paper below."
+type: software
+authors:
+  - family-names: Kim
+    given-names: Seunggyu
+    affiliation: "Division of Information and Telecommunication Engineering, Hoseo University"
+  - family-names: Lee
+    given-names: Hyosong
+    affiliation: "Division of Information and Telecommunication Engineering, Hoseo University"
+  - family-names: Park
+    given-names: Sunghyun
+    affiliation: "Division of Information and Telecommunication Engineering, Hoseo University"
+  - family-names: Kim
+    given-names: Junho
+    affiliation: "LIG Nex1 Maritime Laboratory"
+  - family-names: Ahn
+    given-names: Byoungsun
+    affiliation: "LIG Nex1 Maritime Laboratory"
+  - family-names: Im
+    given-names: Taeho
+    affiliation: "Division of Information and Telecommunication Engineering, Hoseo University"
+license: MIT
+keywords:
+  - autonomous underwater vehicle
+  - AUV swarm
+  - underwater acoustic network
+  - adaptive TDMA
+  - hierarchical clustering
+  - dynamic resource reallocation
+  - OMNeT++
+preferred-citation:
+  type: article
+  title: "SCAL-Net: A Scalable and Adaptive Hierarchical Network Framework for Autonomous Underwater Vehicle Swarms"
+  authors:
+    - family-names: Kim
+      given-names: Seunggyu
+    - family-names: Lee
+      given-names: Hyosong
+    - family-names: Park
+      given-names: Sunghyun
+    - family-names: Kim
+      given-names: Junho
+    - family-names: Ahn
+      given-names: Byoungsun
+    - family-names: Im
+      given-names: Taeho
+  journal: "IEEE Access"
+  volume: 14
+  start: 2166
+  end: 2187
+  year: 2026
+  doi: "10.1109/ACCESS.2025.3649806"

@@ -1,0 +1,62 @@
+{
+    "General-0-20250825-13:05:33-130932" : {
+        "attributes" : {
+            "configname" : "General",
+            "datetime" : "20250825-13:05:33",
+            "datetimef" : "20250825-130533",
+            "experiment" : "General",
+            "inifile" : "omnetpp_3_2.ini",
+            "iterationvars" : "",
+            "iterationvarsd" : "",
+            "iterationvarsf" : "",
+            "measurement" : "",
+            "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_3_2",
+            "processid" : "130932",
+            "repetition" : "0",
+            "replication" : "#0",
+            "resultdir" : "results",
+            "runnumber" : "0",
+            "seedset" : "0"
+        },
+        "itervars" : {
+        },
+        "config" : [
+            { "description" : "Two hosts communicating wirelessly" },
+            { "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_3_2" },
+            { "record-eventlog" : "true" },
+            { "simtime-resolution" : "ns" },
+            { "**.gateway.address" : "0" },
+            { "**.numClusters" : "3" },
+            { "**.numClusterHeads" : "3" },
+            { "**.membersPerCluster" : "2" },
+            { "**.numNeighbors" : "2" },
+            { "**.totalMembers" : "6" },
+            { "**.ClusterHead_1.address" : "1" },
+            { "**.ClusterHead_2.address" : "2" },
+            { "**.ClusterHead_3.address" : "3" },
+            { "**.member_4.address" : "4" },
+            { "**.member_4.clusterId" : "1" },
+            { "**.member_5.address" : "5" },
+            { "**.member_5.clusterId" : "1" },
+            { "**.member_6.address" : "6" },
+            { "**.member_6.clusterId" : "2" },
+            { "**.member_7.address" : "7" },
+            { "**.member_7.clusterId" : "2" },
+            { "**.member_8.address" : "8" },
+            { "**.member_8.clusterId" : "3" },
+            { "**.member_9.address" : "9" },
+            { "**.member_9.clusterId" : "3" },
+            { "**.member_4.app.mineSet" : "true" },
+            { "sim-time-limit" : "28776s" },
+            { "**.channel.pixelToMeterRatio" : "0.125" },
+            { "**.channel.datarate" : "1000bps" }
+        ],
+        "scalars" : [
+            {
+                "module" : "UnderwaterSensorNetwork_3_2.ClusterHead_1.net",
+                "name" : "dataRate",
+                "value" : 238.04544820856
+            }
+        ]
+    }
+}

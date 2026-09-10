@@ -1,0 +1,139 @@
+{
+    "General-0-20250825-14:16:12-111728" : {
+        "attributes" : {
+            "configname" : "General",
+            "datetime" : "20250825-14:16:12",
+            "datetimef" : "20250825-141612",
+            "experiment" : "General",
+            "inifile" : "omnetpp_5_2.ini",
+            "iterationvars" : "",
+            "iterationvarsd" : "",
+            "iterationvarsf" : "",
+            "measurement" : "",
+            "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_5_2",
+            "processid" : "111728",
+            "repetition" : "0",
+            "replication" : "#0",
+            "resultdir" : "results",
+            "runnumber" : "0",
+            "seedset" : "0"
+        },
+        "itervars" : {
+        },
+        "config" : [
+            { "description" : "Two hosts communicating wirelessly" },
+            { "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_5_2" },
+            { "simtime-resolution" : "ns" },
+            { "**.gateway.address" : "0" },
+            { "**.numClusters" : "5" },
+            { "**.membersPerCluster" : "2" },
+            { "**.totalMembers" : "10" },
+            { "**.ClusterHead_1.address" : "1" },
+            { "**.ClusterHead_2.address" : "2" },
+            { "**.ClusterHead_3.address" : "3" },
+            { "**.ClusterHead_4.address" : "4" },
+            { "**.ClusterHead_5.address" : "5" },
+            { "**.member_6.address" : "6" },
+            { "**.member_6.clusterId" : "1" },
+            { "**.member_7.address" : "7" },
+            { "**.member_7.clusterId" : "1" },
+            { "**.member_8.address" : "8" },
+            { "**.member_8.clusterId" : "2" },
+            { "**.member_9.address" : "9" },
+            { "**.member_9.clusterId" : "2" },
+            { "**.member_10.address" : "10" },
+            { "**.member_10.clusterId" : "3" },
+            { "**.member_11.address" : "11" },
+            { "**.member_11.clusterId" : "3" },
+            { "**.member_12.address" : "12" },
+            { "**.member_12.clusterId" : "4" },
+            { "**.member_13.address" : "13" },
+            { "**.member_13.clusterId" : "4" },
+            { "**.member_14.address" : "14" },
+            { "**.member_14.clusterId" : "5" },
+            { "**.member_15.address" : "15" },
+            { "**.member_15.clusterId" : "5" },
+            { "**.member_6.app.mineSet" : "true" },
+            { "sim-time-limit" : "28776s" },
+            { "**.channel.pixelToMeterRatio" : "0.125" },
+            { "**.channel.datarate" : "1000bps" }
+        ],
+        "scalars" : [
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_1.net",
+                "name" : "totalEnergy",
+                "value" : 98276.832000024
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_2.net",
+                "name" : "totalEnergy",
+                "value" : 2347.4079999998
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_3.net",
+                "name" : "totalEnergy",
+                "value" : 2175.7439999999
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_4.net",
+                "name" : "totalEnergy",
+                "value" : 2347.4079999998
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_5.net",
+                "name" : "totalEnergy",
+                "value" : 2519.0719999997
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_6.net",
+                "name" : "totalEnergy",
+                "value" : 8782.6919999966
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_7.net",
+                "name" : "totalEnergy",
+                "value" : 8782.6919999966
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_8.net",
+                "name" : "totalEnergy",
+                "value" : 274.41000000045
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_9.net",
+                "name" : "totalEnergy",
+                "value" : 274.41000000045
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_10.net",
+                "name" : "totalEnergy",
+                "value" : 272.67800000049
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_11.net",
+                "name" : "totalEnergy",
+                "value" : 272.67800000049
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_12.net",
+                "name" : "totalEnergy",
+                "value" : 274.41000000045
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_13.net",
+                "name" : "totalEnergy",
+                "value" : 274.41000000045
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_14.net",
+                "name" : "totalEnergy",
+                "value" : 276.14200000041
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.member_15.net",
+                "name" : "totalEnergy",
+                "value" : 276.14200000041
+            }
+        ]
+    }
+}

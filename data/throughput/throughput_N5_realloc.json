@@ -1,0 +1,69 @@
+{
+    "General-0-20250825-13:33:43-35812" : {
+        "attributes" : {
+            "configname" : "General",
+            "datetime" : "20250825-13:33:43",
+            "datetimef" : "20250825-133343",
+            "experiment" : "General",
+            "inifile" : "omnetpp_5_2.ini",
+            "iterationvars" : "",
+            "iterationvarsd" : "",
+            "iterationvarsf" : "",
+            "measurement" : "",
+            "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_5_2",
+            "processid" : "35812",
+            "repetition" : "0",
+            "replication" : "#0",
+            "resultdir" : "results",
+            "runnumber" : "0",
+            "seedset" : "0"
+        },
+        "itervars" : {
+        },
+        "config" : [
+            { "description" : "Two hosts communicating wirelessly" },
+            { "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_5_2" },
+            { "simtime-resolution" : "ns" },
+            { "**.gateway.address" : "0" },
+            { "**.numClusters" : "5" },
+            { "**.membersPerCluster" : "2" },
+            { "**.totalMembers" : "10" },
+            { "**.ClusterHead_1.address" : "1" },
+            { "**.ClusterHead_2.address" : "2" },
+            { "**.ClusterHead_3.address" : "3" },
+            { "**.ClusterHead_4.address" : "4" },
+            { "**.ClusterHead_5.address" : "5" },
+            { "**.member_6.address" : "6" },
+            { "**.member_6.clusterId" : "1" },
+            { "**.member_7.address" : "7" },
+            { "**.member_7.clusterId" : "1" },
+            { "**.member_8.address" : "8" },
+            { "**.member_8.clusterId" : "2" },
+            { "**.member_9.address" : "9" },
+            { "**.member_9.clusterId" : "2" },
+            { "**.member_10.address" : "10" },
+            { "**.member_10.clusterId" : "3" },
+            { "**.member_11.address" : "11" },
+            { "**.member_11.clusterId" : "3" },
+            { "**.member_12.address" : "12" },
+            { "**.member_12.clusterId" : "4" },
+            { "**.member_13.address" : "13" },
+            { "**.member_13.clusterId" : "4" },
+            { "**.member_14.address" : "14" },
+            { "**.member_14.clusterId" : "5" },
+            { "**.member_15.address" : "15" },
+            { "**.member_15.clusterId" : "5" },
+            { "**.member_6.app.mineSet" : "true" },
+            { "sim-time-limit" : "28776s" },
+            { "**.channel.pixelToMeterRatio" : "0.125" },
+            { "**.channel.datarate" : "1000bps" }
+        ],
+        "scalars" : [
+            {
+                "module" : "UnderwaterSensorNetwork_5_2.ClusterHead_1.net",
+                "name" : "dataRate",
+                "value" : 757.57575757576
+            }
+        ]
+    }
+}

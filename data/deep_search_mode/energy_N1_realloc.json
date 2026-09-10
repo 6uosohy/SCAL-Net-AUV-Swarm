@@ -1,0 +1,62 @@
+{
+    "General-0-20250825-14:23:51-36644" : {
+        "attributes" : {
+            "configname" : "General",
+            "datetime" : "20250825-14:23:51",
+            "datetimef" : "20250825-142351",
+            "experiment" : "General",
+            "inifile" : "omnetpp_1_2.ini",
+            "iterationvars" : "",
+            "iterationvarsd" : "",
+            "iterationvarsf" : "",
+            "measurement" : "",
+            "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_1_2",
+            "processid" : "36644",
+            "repetition" : "0",
+            "replication" : "#0",
+            "resultdir" : "results",
+            "runnumber" : "0",
+            "seedset" : "0"
+        },
+        "itervars" : {
+        },
+        "config" : [
+            { "description" : "Two hosts communicating wirelessly" },
+            { "network" : "UnderwaterNetwork.networks.UnderwaterSensorNetwork_1_2" },
+            { "record-eventlog" : "true" },
+            { "simtime-resolution" : "ns" },
+            { "**.gateway.address" : "0" },
+            { "**.numClusters" : "1" },
+            { "**.numClusterHeads" : "1" },
+            { "**.membersPerCluster" : "2" },
+            { "**.numNeighbors" : "0" },
+            { "**.totalMembers" : "2" },
+            { "**.ClusterHead_1.address" : "1" },
+            { "**.member_2.address" : "2" },
+            { "**.member_2.clusterId" : "1" },
+            { "**.member_3.address" : "3" },
+            { "**.member_3.clusterId" : "1" },
+            { "**.member_2.app.mineSet" : "true" },
+            { "sim-time-limit" : "28776s" },
+            { "**.channel.pixelToMeterRatio" : "0.125" },
+            { "**.channel.datarate" : "1000bps" }
+        ],
+        "scalars" : [
+            {
+                "module" : "UnderwaterSensorNetwork_1_2.ClusterHead_1.net",
+                "name" : "totalEnergy",
+                "value" : 78012.384000034
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_1_2.member_2.net",
+                "name" : "totalEnergy",
+                "value" : 6495.5979999965
+            },
+            {
+                "module" : "UnderwaterSensorNetwork_1_2.member_3.net",
+                "name" : "totalEnergy",
+                "value" : 6495.5979999965
+            }
+        ]
+    }
+}
